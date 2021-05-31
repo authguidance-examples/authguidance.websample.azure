@@ -12,7 +12,7 @@ export class UserInfoService {
     }
 
     public getUserInfo(): any {
-        
+
         return {
             givenName: this._claims.givenName,
             familyName: this._claims.familyName,
